@@ -1,6 +1,7 @@
 package com.example.demo.Volatile;
 
 import java.util.concurrent.atomic.AtomicInteger;
+import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * volatile 是java虚拟机提供的轻量级的同步机制
@@ -36,8 +37,10 @@ class MyData {
 public class MainBases01 {
 
     public static void main(String[] args) throws InterruptedException {
-        VolatileAtom();
+//        VolatileAtom();
+        seeOkByVolatile();
     }
+
 
     /**
      * volatile的不保证原子性测试
@@ -89,7 +92,6 @@ public class MainBases01 {
 //            }
 //            System.out.println(Thread.currentThread().getName()+"\t myData.AddNumber()!  myData.number="+myData.number);
 //        },"BBB").start();
-
 //        在main线程进行验证,没有人通知main线程
         while (myData.number == 0) {
         }

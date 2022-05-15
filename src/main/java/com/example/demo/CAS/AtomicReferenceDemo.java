@@ -16,6 +16,10 @@ class User{
 
 }
 
+/**
+ * 解决ABA问题:1.原子应用  2.时间戳原子引用(修改版本号)
+ *
+ */
 public class AtomicReferenceDemo {
     public static void main(String[] args) {
         User z3=new User("z3",22);
