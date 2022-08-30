@@ -7,7 +7,7 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.locks.Lock;
 import java.util.concurrent.locks.ReentrantLock;
 
-//可重入锁:synchronize和ReentrantLock
+//可重入锁: synchronize和ReentrantLock
 //自旋锁: 一直循环的方式去获取锁
 class Phone {
     public synchronized void snendMessage() throws InterruptedException {
