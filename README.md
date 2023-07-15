@@ -6,7 +6,9 @@
 ### **程序设计博客:** [https://www.runwsh.com](https://www.runwsh.com)
  
 ### **程序源码地址:** [https://blog.runwsh.com/runwsh](https://blog.runwsh.com/runwsh)
- 
+
+### **在线文档资料整理:** [https://docs.qq.com/sheet/DUUJ3REZBTXhHSGhV?tab=ocwcmg](https://docs.qq.com/sheet/DUUJ3REZBTXhHSGhV?tab=ocwcmg)
+
 - 01-某市老干局门户网站的设计与实现
 - 02-基于SSM框架的志愿服务平台的设计与实现
 - 03-基于ssm框架的中等学校通用IS平台的设计与实现
