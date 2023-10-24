@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="MarkdownSettings">
+    <option name="areInjectionsEnabled" value="false" />
+    <option name="customStylesheetText" value="body {&#10;    font-family: 'WenQuanYi Micro Hei', arial, sans-serif;&#10;}&#10;code {&#10;    font-family: 'WenQuanYi Micro Hei Mono', arial, sans-serif, monospace;&#10;}" />
+    <enabledExtensions>
+      <entry key="MermaidLanguageExtension" value="true" />
+      <entry key="PlantUMLLanguageExtension" value="false" />
+    </enabledExtensions>
+    <option name="showProblemsInCodeBlocks" value="false" />
+  </component>
+</project>
